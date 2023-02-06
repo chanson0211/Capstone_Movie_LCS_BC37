@@ -26,7 +26,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{backgroundImage:
+      "url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/343280/155d866211516ae7c6819f7d9ba65815b59e7f62.jpg"}}>
       <HomeCarousel  />
       {/* thư viện tailblocks.cc */}
       <section className="text-gray-800 body-font">
